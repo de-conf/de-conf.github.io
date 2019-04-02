@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Rebuild Blog]]></title>
+    <url>%2F2019%2F02%2Frebuild%2F</url>
+    <content type="text"><![CDATA[&#x4ECE;&#x5934;&#x5F00;&#x59CB;&#x975E;&#x5E38;&#x60B2;&#x50AC;,&#x7531;&#x4E8E;&#x4E00;&#x6B21;&#x8BEF;&#x64CD;&#x4F5C;,&#x5BFC;&#x81F4;&#x4E86;&#x6211;&#x7684;Blog&#x6E90;&#x6587;&#x4EF6;&#x4E22;&#x5931;.&#x7136;&#x540E;&#x7531;&#x4E8E;&#x672C;&#x4EBA;&#x61D2;&#x6563; &#x1F600; ,&#x4E00;&#x76F4;&#x62D6;&#x5230;&#x73B0;&#x5728;&#x624D;&#x91CD;&#x5EFA;Blog. &#x65B0;&#x79D1;&#x6280; &#x4E3A;&#x4E86;&#x4E0A;&#x6B21;&#x7ECF;&#x9A8C;&#x6559;&#x8BAD;&#x91C7;&#x7528;&#x4E86;github&#x4FDD;&#x5B58;blog&#x6E90;&#x6587;&#x4EF6; &#x91C7;&#x7528;&#x4E86; Travis-CI &#x81EA;&#x52A8;&#x5316;&#x90E8;&#x7F72; (&#x1F60F;) &#x5177;&#x4F53;&#x6D41;&#x7A0B;tarvis-ci&#x670D;&#x52A1;&#x5668;&#x4E0D;&#x65AD;&#x5730;&#x76D1;&#x542C;blog&#x4E3B;&#x7EBF;&#x5F00;&#x53D1;&#x7684;&#x53D8;&#x66F4;&#x5185;&#x5BB9;&#xFF0C; &#x4E00;&#x65E6;&#x6709;&#x4EFB;&#x4F55;&#x53D8;&#x66F4;&#xFF08;&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x4E3A; git commit &#xFF09;&#x5C31;&#x81EA;&#x52A8;&#x8C03;&#x7528;&#x6D4B;&#x8BD5;&#x548C;&#x90E8;&#x7F72;&#x811A;&#x672C;&#x3002;&#x7136;&#x540E;&#x6211;&#x7684;blog&#x5C31;&#x81EA;&#x52A8;&#x66F4;&#x65B0;&#x4E86;.(&#x597D;&#x5904;&#x5C31;&#x662F;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x5728;github web&#x9875;&#x9762;&#x5199;&#x6587;&#x7AE0;&#x4E86;,&#x800C;&#x4E14;&#x4E5F;&#x4E0D;&#x9700;&#x8981;&#x62C5;&#x5FC3;&#x591A;&#x8BBE;&#x5907;&#x540C;&#x6B65;&#x95EE;&#x9898;.2333 &#x9ED1;&#x79D1;&#x6280;&#x4E0D;? &#x1F609; document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+      <categories>
+        <category>hexo blog</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+</search>
